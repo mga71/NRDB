@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+<div class="side-menu-wrapper">
+<a href="#" class="menu-close">×</a>
+<ul>
+	<li><a href="#" target="_blank" rel="nofollow">Care Plan</a></li>
+	<li><a href="#" target="_blank" rel="nofollow">Nurse Routing</a></li>
+	<li><a href="#" target="_blank" rel="nofollow">Patient Visit</a></li>
+	<li><a href="#" target="_blank" rel="nofollow">Administration</a></li>
+	<li><a href="#" target="_blank" rel="nofollow">Data Entry</a></li>
+	<li><a href="#" target="_blank" rel="nofollow">Logout</a></li>
+
+</ul>
+</div>
+
+<div id="header" class="container" style="padding-top: 1em; padding-bottom: .5em">	
+ 
+ <div style="float:left">
+   <img src="images/logo.png" style="padding-right: 2em; padding-bottom: .55em">
+   <span class="title">Patient Directory</span>
+ </div>
+
+ <div style="float:right; margin-top:1.2em">
+ 	<i class="fas fa-arrow-left" style="padding-right: .5em; color:#707070"></i> <a href="#" class="link_back">Back to Patient Directory</a>
+ 	<a href="" class="menu-open" ><span style="padding-left: 1.5em; color:#707070"><i class="fas fa-bars menu-open"></i></span></a>
+ </div>
+
+
+
+</div>
+
+
+<div id="menu" class="container" style="background-color: white;margin-top:2em">	
+
+  <ul class="nav nav-pills">
+    <li><a href="#">Patient Information</a></li>
+    <li class="active"><a href="#">Medical History</a></li>
+    <li><a href="#">Scheduling</a></li>
+    <li><a href="#">Care Plan</a></li>
+  </ul>
+</div>
+
+<div id="exTab" class="container" style="padding-top: 2em;">	
+
+<ul  class="nav nav-pills">
+			<li class="active"><a  href="#1b" data-toggle="tab">Patient Profile</a></li>
+			<li><a href="#2b" data-toggle="tab">Address & Contact Info</a></li>
+			<li><a href="#3b" data-toggle="tab">Contact</a></li>
+			<li><a href="#4b" data-toggle="tab">Case Manager(s)</a></li>
+			<li><a href="#5b" data-toggle="tab">MD Contacts</a></li>
+			<li><a href="#6b" data-toggle="tab">Economic Data</a></li>
+			<li><a href="#7b" data-toggle="tab">Route</a></li>
+		</ul>
+
+	<div class="tab-content clearfix" style="padding-bottom: 2em">
+    <div class="tab-pane active" id="1b">
+        <!-- Patient Profile (start) -->
+ <div class="row p-5" style="border-bottom: 1px solid #707070;margin: 15px 0px 0px 0px;">
+        
+		   <div class="col-xs-2 col-md-2" id="p1"> 
+		   <div class="profile-img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt="" width="140" height="160"/>
+                        </div></div>
+						
+		
+		<div class="col-xs-2 col-md-2 col-sm-2 col-half-offset" id="p2">
+		<div class="row">
+                                            <div class="col-md-6">
+                                                <label>Patient Health Number</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>BO156412</p>
+                                            </div>
+                        </div>
+						
+						<div class="row">
+                                            <div class="col-md-6">
+                                                <label>Patient First Name</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Eddie Murphy</p>
+                                            </div>
+                                        </div>
+										
+										<div class="row">
+                                            <div class="col-md-6">
+                                                <label>Gender</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Male</p>
+                                            </div>
+                                        </div>
+										
+										<div class="row">
+                                            <div class="col-md-6">
+                                                <label>Birthday</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>May 1,1950</p>
+                                            </div>
+                                        </div>
+										
+										<div class="row">
+                                            <div class="col-md-6">
+                                                <label>Ethnicity</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Aboriginal / First Nations</p>
+                                            </div>
+                                        </div>
+										
+										<div class="row">
+                                            <div class="col-md-6">
+                                                <label>Intake Date</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>May 5,2015</p>
+                                            </div>
+                                        </div>
+						</div>
+						
+        <div class="col-xs-2 col-md-2 col-sm-2 col-half-offset" id="p3">
+		  <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Pharmacy</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Pharmacy Name</p>
+                                            </div>
+                                        </div>
+										
+										<div class="row">
+                                            <div class="col-md-6">
+                                                <label>Referred By</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Aasdf</p>
+                                            </div>
+                                        </div>
+										
+										<div class="row">
+                                            <div class="col-md-6">
+                                                <label>Allergies</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Aasdf </p>
+                                            </div>
+                                        </div>
+										
+										<div class="row">
+                                            <div class="col-md-6">
+                                                <label>Status</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>On Hold Hospital</p>
+                                            </div>
+                                        </div>
+						
+		</div>
+        <div class="col-xs-2 col-md-2 col-sm-2 col-half-offset" id="p4">
+		
+            <div class="row">
+                           <div class="col-md-12">
+                        <label>Patient Needs </label>
+												
+						 <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Mobility / Dexterity
+                        </label>
+                    </div>
+                              <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Hearing
+                        </label>
+                    </div>
+							  <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Visual
+                        </label>
+                    </div>
+                              <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Swollowing
+                        </label>
+                    </div>
+					
+					 <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Cognitive
+                        </label>
+                    </div>
+					
+					<div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Literacy
+                        </label>
+                    </div>
+					
+					<div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Language Barrier
+                        </label>
+                    </div>
+								
+                                            </div>
+										 
+                                        </div>
+										
+										
+										
+						        
+                   
+		</div>
+        <div class="col-xs-4 col-md-4 col-sm-2 col-half-offset" id="p5">
+		 <div class="row">
+               <div class="col-md-6">
+			   <div class="container-login100-form-btn p-t-15">
+			   <label>Mental Health Patient</label>
+					
+						<div class="col-md-6"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+						
+						<div class="col-md-6"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+					</div>
+               </div>
+			</div>
+			
+			
+			 <div class="row">
+               <div class="col-md-6">
+			   <div class="container-login100-form-btn p-t-15">
+			   <p>Does the patient fill and recieve medication from anather pharmacy</p>
+					
+						<div class="col-md-6"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+						
+						<div class="col-md-6"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+					</div>
+               </div>
+			</div>
+									
+								
+		</div>
+     
+       
+    </div>
+	
+	
+	  <div class="row">
+        <div class="col-md-3">
+           <h3 style="padding-left: 1.5em">Upload Document</h3>           
+           <br>
+           <span style="padding-left: 3.5em"><i class="fas fa-file-archive fa-5x" style="color: #707070"></i></span>
+
+        </div>
+        <div class="col-md-6" style="padding-top: 4em">
+
+          
+      <div class="row">
+
+
+        <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Mobility / Dexterity  
+                        </label>
+						
+						<span class="glyphicon glyphicon-download-alt"></span>
+						
+						<button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-trash"></span>  
+        </button>
+		
+                    </div>
+		
+		<div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Hearing
+                        </label>
+                    </div>
+							  <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Visual
+                        </label>
+                    </div>
+                              <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Swollowing
+                        </label>
+                    </div>
+					
+					 <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Cognitive
+                        </label>
+                    </div>
+					
+					<div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Literacy
+                        </label>
+                    </div>
+					
+					<div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Language Barrier
+                        </label>
+                    </div>
+					
+					
+					 <div class="row p-t-15">
+					
+				<div class="col-md-2">
+		<a class="btn btn-secondary" href="#" role="button">Upload a Document</a>
+						</div>
+						
+					</div>	
+					 <div class="row p-t-15">
+					 <p>Pharmecy visit</p>	
+					</div>
+
+				 <div class="row p-t-15">
+					<div class="col-md-2"><a class="btn btn-secondary" href="#" role="button">Add a Pharmecy visit</a></div>
+						
+						
+					</div>	
+		
+         <div style="clear: both;"></div>         
+
+        
+      </div>
+
+
+        </div>
+        <div class="col-md-3" style="margin-left: inherit; margin-top:32em">
+
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-edit" style="padding-right: .2em"></i>Edit</a></div>
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-save" style="padding-right: .2em"></i>Save</a></div>
+         <div class="col-md-4" style="width: 32%!important"><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-undo" style="padding-right: .2em"></i>Cancel</a></div> 
+
+        </div>
+      </div>
+      
+<!-- Patient Profile (end) -->
+
+		</div>
+		
+		<div class="tab-pane" id="2b">
+
+<!-- Address & Contact Info (start) -->
+
+      <div class="row">
+        <div class="col-md-3">
+           <h3 style="padding-left: 1.5em">Address & Contact Info</h3>           
+           <br>
+           <span style="padding-left: 3.5em"><i class="fas fa-file-archive fa-5x" style="color: #707070"></i></span>
+
+        </div>
+        <div class="col-md-6" style="padding-top: 4em">
+
+           <div class="row">
+        <div class="col-md-6" style="padding-left: 0px; padding-right: 0px">
+
+         <div class="col-md-6"><label>Street Address</label></div>
+         <div class="col-md-6"><p>15501, 16 Avenue</p></div>
+         
+         <div style="clear: both;"></div>   
+		 
+         <div class="col-md-6"><label>City</label></div>
+         <div class="col-md-6"><p>Surrey</p></div>
+         <div style="clear: both;"></div> 
+		 
+          <div class="col-md-6"><label>Additional Information</label></div>
+         <div class="col-md-6"><p>Lorem Ipsum</p></div>
+		 
+         <div style="clear: both;"></div>
+		 
+       <div class="col-md-6"><a class="btn btn-secondary" href="#" role="button">Add Secondary Address </a></div>
+		 
+         <div style="clear: both;"></div>
+		 
+         
+
+        </div>
+        <div class="col-md-6" style="padding-left: 1em; padding-right: 0px">
+
+         <div class="col-md-6"><label>Unit</label></div>
+         <div class="col-md-6"><p>163</p></div>
+        
+         <div style="clear: both;"></div>
+		 
+          <div class="col-md-6"><label>Province</label></div>
+         <div class="col-md-6"><p>9856741337</p></div>
+         
+		 <div style="clear: both;"></div>
+          <div class="col-md-6"><label>Zip Code</label></div>
+         <div class="col-md-6"><p>BKVO56G4</p></div>
+         <div style="clear: both;"></div>
+		
+      </div>
+      </div>
+
+
+        </div>
+        <div class="col-md-3" style="margin-left: inherit; margin-top:13em">
+
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-edit" style="padding-right: .2em"></i>Edit</a></div>
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-save" style="padding-right: .2em"></i>Save</a></div>
+         <div class="col-md-4" style="width: 32%!important"><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-undo" style="padding-right: .2em"></i>Cancel</a></div> 
+
+        </div>
+		
+      </div>
+	  
+	  
+	   <div class="row">
+        <div class="col-md-3">
+           
+
+        </div>
+        <div class="col-md-6" style="padding-top: 4em">
+
+           <div class="row">
+        <div class="col-md-6" style="padding-left: 0px; padding-right: 0px">
+
+         <div class="col-md-6"><label>Phone Number</label></div>
+         <div class="col-md-6"><p>9856541237</p></div>
+         
+         <div style="clear: both;"></div>   
+		 
+         <div class="col-md-6"><label>Extension</label></div>
+         <div class="col-md-6"><p>1235</p></div>
+         <div style="clear: both;"></div> 
+		 
+          <div class="col-md-6"><a class="btn btn-secondary" href="#" role="button">Add Phone Number </a></div>
+		
+		 
+         <div style="clear: both;"></div>
+		 
+         
+
+        </div>
+        <div class="col-md-6" style="padding-left: 1em; padding-right: 0px">
+
+         <div class="col-md-6"><label>Type</label></div>
+         <div class="col-md-6"><p>Home</p></div>
+        
+         <div style="clear: both;"></div>
+		 
+          <div class="col-md-6"></div>
+         <div class="col-md-6"></div>
+         
+		 <div style="clear: both;"></div>
+           
+		   <div class="col-md-6" style="width: 32%!important; margin-top:2em"><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-trash" style="padding-right: .2em"></i>Delete This Phone Number </a></div> 
+         <div style="clear: both;"></div>
+		
+      </div>
+      </div>
+
+
+        </div>
+        <div class="col-md-3" style="margin-left: inherit; margin-top:13em">
+
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-edit" style="padding-right: .2em"></i>Edit</a></div>
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-save" style="padding-right: .2em"></i>Save</a></div>
+         <div class="col-md-4" style="width: 32%!important"><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-undo" style="padding-right: .2em"></i>Cancel</a></div> 
+
+        </div>
+		
+      </div>
+
+
+<!-- Address & Contact Info (end) -->
+
+          
+		</div>
+        
+
+        <div class="tab-pane" id="3b">
+          
+<!-- Contact (start) -->
+
+      <div class="row">
+        <div class="col-md-3">
+           <h3 style="padding-left: 1.5em">Contact</h3>           
+           <br>
+           <span style="padding-left: 2em"><i class="fas fa-users fa-5x" style="color: #707070"></i></span>
+
+        </div>
+        <div class="col-md-6" style="padding-top: 4em">
+          
+
+      <div class="row">
+        <div class="col-md-6" style="padding-left: 0px; padding-right: 0px">
+
+         <div class="col-md-6"><label>Primary contact name</label></div>
+         <div class="col-md-6"><p>Eddie Merphy</p></div>
+         
+         <div style="clear: both;"></div>   
+		 
+         <div class="col-md-6"><label>Phone Number</label></div>
+         <div class="col-md-6"><p>9856541237</p></div>
+         <div style="clear: both;"></div> 
+		 
+          <div class="col-md-6"><label>Extension</label></div>
+         <div class="col-md-6"><p>1235</p></div>
+		 
+         <div style="clear: both;"></div>
+		 
+          
+		  <div class="col-md-6"><a class="btn btn-secondary" href="#" role="button">Add Phone Number </a></div>
+		  <div style="clear: both;"></div> 
+       <div class="col-md-6" style="margin-top:2em"><a class="btn btn-secondary" href="#" role="button">Add Secondary Contact </a></div>
+		 
+         <div style="clear: both;"></div>
+		 
+         
+
+        </div>
+        <div class="col-md-6" style="padding-left: 1em; padding-right: 0px">
+
+         <div class="col-md-6"><label>Relationship</label></div>
+         <div class="col-md-6"><p>Relationship</p></div>
+        
+         <div style="clear: both;"></div>
+		 
+          <div class="col-md-6"><label>Type</label></div>
+         <div class="col-md-6"><p>Home</p></div>
+         
+		 <div style="clear: both;"></div>
+         <div class="clearfix" style="clear: both;"></div>
+         <div class="clearfix" style="clear: both;"></div>
+         <div style="clear: both;"></div>
+		 
+		 
+		  
+		   <div class="col-md-6" style="width: 32%!important;margin-top:2em "><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-trash" style="padding-right: .2em"></i>Delete This Phone Number </a></div> 
+               
+      </div>
+      </div>
+
+        </div>
+        <div class="col-md-3" style="margin-left: inherit; margin-top:18em">
+
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-edit" style="padding-right: .2em"></i>Edit</a></div>
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-save" style="padding-right: .2em"></i>Save</a></div>
+         <div class="col-md-4" style="width: 32%!important"><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-undo" style="padding-right: .2em"></i>Cancel</a></div> 
+
+        </div>
+      </div>
+
+<!-- Contact (end) -->
+
+
+		</div>
+		
+		
+		 <div class="tab-pane" id="4b">    
+<!-- Case Manager(s) (start) -->
+      <div class="row">
+        <div class="col-md-3">
+           <h3 style="padding-left: 1.5em">Case Manager(s)</h3>           
+           <br>
+           <span style="padding-left: 2em"><i class="fas fa-users fa-5x" style="color: #707070"></i></span>
+
+        </div>
+        <div class="col-md-6" style="padding-top: 4em">
+          
+
+      <div class="row">
+        <div class="col-md-6" style="padding-left: 0px; padding-right: 0px">
+
+         <div class="col-md-6"><label>Case Manager name</label></div>
+         <div class="col-md-6"><p>Arnold Schwarzenegger</p></div>
+         
+         <div style="clear: both;"></div>   
+		 
+         <div class="col-md-6"><label>Type of Case Manager</label></div>
+         <div class="col-md-6"><p>Work</p></div>
+         <div style="clear: both;"></div> 
+		 
+          <div class="col-md-6"><label>Phone Number</label></div>
+         <div class="col-md-6"><p>9856541237</p></div>
+		 
+         <div style="clear: both;"></div>
+		 
+		 
+          <div class="col-md-6"><label>Extension</label></div>
+         <div class="col-md-6"><p>1235</p></div>
+		 
+         <div style="clear: both;"></div>
+		 
+		 
+          <div class="col-md-6"><label>Type</label></div>
+         <div class="col-md-6"><p>Work</p></div>
+		 
+         <div style="clear: both;"></div>
+		 
+       <div class="col-md-6" style="margin-top:2em"><a class="btn btn-secondary" href="#" role="button">Add Secondary Case Manager </a></div>
+		 
+         <div style="clear: both;"></div>
+		 
+         
+
+        </div>
+        <div class="col-md-6" style="padding-left: 1em; padding-right: 0px">
+
+         <div class="col-md-8"><label>Health Unit Option</label></div>
+         <div class="col-md-4"><p>Work</p></div>
+        
+         <div style="clear: both;"></div>
+		 
+         
+		   <div class="col-md-6" style="width: 32%!important;margin-top:2em "><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-trash" style="padding-right: .2em"></i>Delete This Phone Number </a></div> 
+		   
+         
+		 <div style="clear: both;"></div>
+          <div class="col-md-6" style="margin-top:2em"><a class="btn btn-secondary" href="#" role="button">Add Secondary Case Manager </a></div>
+         <div style="clear: both;"></div>
+		      
+      </div>
+      </div>
+
+        </div>
+        <div class="col-md-3" style="margin-left: inherit; margin-top:22em">
+
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-edit" style="padding-right: .2em"></i>Edit</a></div>
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-save" style="padding-right: .2em"></i>Save</a></div>
+         <div class="col-md-4" style="width: 32%!important"><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-undo" style="padding-right: .2em"></i>Cancel</a></div> 
+
+        </div>
+      </div>
+
+<!-- Case Manager(s) (end) -->
+
+
+		</div>
+		
+		
+		<div class="tab-pane" id="5b">
+          
+<!-- MD Contacts(s) (start) -->
+
+      <div class="row">
+        <div class="col-md-3">
+           <h3 style="padding-left: 1.5em">MD Contacts</h3>           
+           <br>
+           <span style="padding-left: 2em"><i class="fas fa-users fa-5x" style="color: #707070"></i></span>
+
+        </div>
+        <div class="col-md-6" style="padding-top: 4em">
+          
+
+      <div class="row">
+        <div class="col-md-6" style="padding-left: 0px; padding-right: 0px">
+
+         <div class="col-md-6"><label>Full name</label></div>
+         <div class="col-md-6"><p>Dr. Arnold Schwarzenegger</p></div>
+         
+         <div style="clear: both;"></div>   
+		 
+         <div class="col-md-6"><label>Speciality</label></div>
+         <div class="col-md-6"><p>Work</p></div>
+         <div style="clear: both;"></div> 
+		 
+          <div class="col-md-6"><label>Phone Number</label></div>
+         <div class="col-md-6"><p>9856541237</p></div>
+		 
+         <div style="clear: both;"></div>
+		 
+		 
+          <div class="col-md-6"><label>Extension</label></div>
+         <div class="col-md-6"><p>1235</p></div>
+		 
+         <div style="clear: both;"></div>
+		 
+		 
+          <div class="col-md-6"><label>Type</label></div>
+         <div class="col-md-6"><p>Work</p></div>
+		 
+         <div style="clear: both;"></div>
+		 
+       <div class="col-md-4" style="margin-top:2em"><a class="btn btn-secondary" href="#" role="button">Add Secondary Doctor </a></div>
+	   
+	   
+	     <div class="col-md-4" style="margin-top:2em;margin-left: 6em;"><a class="btn btn-secondary" href="#" role="button">Add Phone Number </a></div>
+		 
+         <div style="clear: both;"></div>
+		 
+         
+
+        </div>
+        <div class="col-md-6" style="padding-left: 1em; padding-right: 0px">
+
+         
+		   <div class="col-md-6" style="width: 32%!important;margin-top:5em "><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-trash" style="padding-right: .2em"></i>Delete This Phone Number </a></div> 
+		   
+         
+		 <div style="clear: both;"></div>
+        
+         <div style="clear: both;"></div>
+		      
+      </div>
+      </div>
+
+        </div>
+        <div class="col-md-3" style="margin-left: inherit; margin-top:22em">
+
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-edit" style="padding-right: .2em"></i>Edit</a></div>
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-save" style="padding-right: .2em"></i>Save</a></div>
+         <div class="col-md-4" style="width: 32%!important"><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-undo" style="padding-right: .2em"></i>Cancel</a></div> 
+
+        </div>
+      </div>
+
+<!-- MD Contacts(s) (end) -->
+
+
+		</div>
+		
+		
+		
+		<div class="tab-pane" id="6b">
+          
+<!-- Economic Data(s) (start) -->
+
+      <div class="row">
+        <div class="col-md-3">
+           <h3 style="padding-left: 1.5em">Economic Data</h3>           
+           <br>
+           <span style="padding-left: 2em"><i class="fas fa-users fa-5x" style="color: #707070"></i></span>
+
+        </div>
+        <div class="col-md-6" style="padding-top: 4em">
+          
+
+      <div class="row">
+        <div class="col-md-12" style="padding-left: 0px; padding-right: 0px">
+
+         <div class="col-md-12">
+		 <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Private Drug Insurance Plan (through Employement etc.)
+                        </label>
+                    </div>
+					
+					<div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Government Drug Insurance Plan (Faderal, Social Services, AISH etc.)
+                        </label>
+                    </div>
+					
+					<div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked disabled>
+                        <label for="checkbox2">
+                            Out of Pocket (No drug Coverage)
+                        </label>
+                    </div>
+					
+					
+		</div>
+		
+        </div>
+	
+      </div>
+
+        </div>
+        <div class="col-md-3" style="margin-left: inherit; margin-top:20em">
+
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-edit" style="padding-right: .2em"></i>Edit</a></div>
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-save" style="padding-right: .2em"></i>Save</a></div>
+         <div class="col-md-4" style="width: 32%!important"><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-undo" style="padding-right: .2em"></i>Cancel</a></div> 
+
+        </div>
+      </div>
+
+<!-- Economic Data (end) -->
+		</div>
+		
+		
+		
+		 <div class="tab-pane" id="7b">    
+<!-- Route (start) -->
+      <div class="row">
+        <div class="col-md-3">
+           <h3 style="padding-left: 1.5em">Route</h3>           
+           <br>
+           <span style="padding-left: 2em"><i class="fas fa-users fa-5x" style="color: #707070"></i></span>
+
+        </div>
+        <div class="col-md-6" style="padding-top: 4em">
+          
+
+      <div class="row">
+	  
+        <div class="col-md-8" style="padding-left: 0px; padding-right: 0px">
+        
+  <div class="col-md-12"><label>Preference</label></div>
+        <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button">Male Nurse </a></div>
+         <div class="col-md-4">
+		 <a class="btn btn-secondary" href="#" role="button">Female Nurse </a>
+		 </div>
+		 
+		  <div class="col-md-4">
+		 <a class="btn btn-secondary" href="#" role="button">No preference</a>
+		 </div> 
+		 </div> 
+		 </div> 
+         
+        <div class="row">
+		 
+		 <div class="col-md-8" style="padding-left: 0px; padding-right: 0px">
+		 
+         <div class="col-md-8"><label>Preferred Language</label></div>
+         <div class="col-md-4"><label>English</label></div>
+        
+         <div style="clear: both;"></div> 
+		 
+          <div class="col-md-8"><label>Origin Route</label></div>
+         <div class="col-md-4"><p>Clover Date</p></div>
+		 
+         <div style="clear: both;"></div>
+		 
+		 
+          <div class="col-md-8"><label>Assigned to Route</label></div>
+         <div class="col-md-4"><p>Clover Date</p></div>
+		 
+         <div style="clear: both;"></div>
+		 
+		 
+          <div class="col-md-8"><label>Last Updated</label></div>
+       <div class="col-md-4"><p>05/12/13</p></div>
+		 
+         <div style="clear: both;"></div>
+		 
+    <div class="col-md-8"><p>In Case of severe weather conditions or other emergencies (Example snow storm, power outage road closure, natural disaster) has the physician and / or chase manager authorized to carry for a patient ? </p></div>
+       <div class="col-md-2"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+		<div class="col-md-2"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+        </div>
+      
+	   <div class="col-md-4" style="padding-left: 1em; padding-right: 0px">
+
+         <div class="col-md-8"><label>Route</label></div>
+         <div class="col-md-4"><p></p></div>
+        
+         <div style="clear: both;"></div>
+		 
+           <div class="col-md-8">
+		   <div class="form-group">
+                        <input type="text" class="form_inline" name="username" placeholder="">
+           </div>
+		   </div>
+         <div class="col-md-4"><p></p></div>
+        
+         <div style="clear: both;"></div>
+		
+		  <div class="col-md-12"><label>Patient Absense</label></div>
+       
+		 
+        <div style="clear: both;"></div>
+		
+         <div class="col-md-12">
+		 <p>Patient In Case Of Patient Absense</p>
+		 </div>
+		  <div style="clear: both;"></div>
+		<div class="col-md-4">
+		  <div class="form-group">
+                        <input type="text" class="form_inline" name="username" placeholder="">
+           </div> 
+</div>	
+
+ <div style="clear: both;"></div>
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button">Add</a></div>
+		<div class="col-md-4"><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-trash" style="padding-right: .2em"></i>Delete</a></div>	   
+      </div>
+	  
+	  
+      </div>
+
+        </div>
+        <div class="col-md-3" style="margin-left: inherit; margin-top:25em">
+
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-edit" style="padding-right: .2em"></i>Edit</a></div>
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-save" style="padding-right: .2em"></i>Save</a></div>
+         <div class="col-md-4" style="width: 32%!important"><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-undo" style="padding-right: .2em"></i>Cancel</a></div> 
+
+        </div>
+      </div>
+
+<!-- Route (end) -->
+
+
+		</div>
+		
+		
+  </div>
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+   
+<script>
+$(document).ready(function(){
+	
+	var slide_wrp 		= ".side-menu-wrapper"; //Menu Wrapper
+var open_button 	= ".menu-open"; //Menu Open Button
+var close_button 	= ".menu-close"; //Menu Close Button
+var overlay 		= ".menu-overlay"; //Overlay
+
+//Initial menu position
+$(slide_wrp).hide().css( {"right": -$(slide_wrp).outerWidth()+'px'}).delay(50).queue(function(){$(slide_wrp).show()}); 
+
+$(open_button).click(function(e){ //On menu open button click
+	e.preventDefault();
+
+	$(slide_wrp).css( {"right": "0px"}); //move menu right position to 0
+	setTimeout(function(){
+		$(slide_wrp).addClass('active'); //add active class
+	},50);
+	$(overlay).css({"opacity":"1", "width":"100%"});
+});
+
+$(close_button).click(function(e){ //on menu close button click
+	e.preventDefault();
+	$(slide_wrp).css( {"right": -$(slide_wrp).outerWidth()+'px'}); //hide menu by setting right position 
+	setTimeout(function(){
+		$(slide_wrp).removeClass('active'); // remove active class
+	},50);
+	$(overlay).css({"opacity":"0", "width":"0"});
+});
+});
+$(document).on('click', function(e) { //Hide menu when clicked outside menu area
+	if (!e.target.closest(slide_wrp) && $(slide_wrp).hasClass("active")){ // check menu condition
+		$(slide_wrp).css( {"right": -$(slide_wrp).outerWidth()+'px'}).removeClass('active');
+		$(overlay).css({"opacity":"0", "width":"0"});
+	}
+});
+
+</script>
+
+</body>
+</html>	

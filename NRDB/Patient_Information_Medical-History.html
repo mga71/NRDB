@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<div class="side-menu-wrapper">
+<a href="#" class="menu-close">×</a>
+<ul>
+	<li><a href="#" target="_blank" rel="nofollow">Care Plan</a></li>
+	<li><a href="#" target="_blank" rel="nofollow">Nurse Routing</a></li>
+	<li><a href="#" target="_blank" rel="nofollow">Patient Visit</a></li>
+	<li><a href="#" target="_blank" rel="nofollow">Administration</a></li>
+	<li><a href="#" target="_blank" rel="nofollow">Data Entry</a></li>
+	<li><a href="#" target="_blank" rel="nofollow">Logout</a></li>
+
+</ul>
+</div>
+<div id="header" class="container" style="padding-top: 1em; padding-bottom: .5em">	
+ 
+ <div style="float:left">
+   <img src="images/logo.png" style="padding-right: 2em; padding-bottom: .55em">
+   <span class="title">Patient Directory</span>
+ </div>
+
+ <div style="float:right; margin-top:1.2em">
+ 	<i class="fas fa-arrow-left" style="padding-right: .5em; color:#707070"></i> <a href="#" class="link_back">Back to Patient Directory</a>
+ 	<a href="" class="menu-open" ><span style="padding-left: 1.5em; color:#707070"><i class="fas fa-bars menu-open"></i></span></a>
+ </div>
+
+
+</div>
+
+
+<div id="menu" class="container" style="background-color: white;margin-top:2em">	
+
+  <ul class="nav nav-pills">
+    <li><a href="#">Patient Information</a></li>
+    <li class="active"><a href="#">Medical History</a></li>
+    <li><a href="#">Scheduling</a></li>
+    <li><a href="#">Care Plan</a></li>
+  </ul>
+</div>
+
+<div id="exTab" class="container" style="padding-top: 2em;">	
+
+<ul  class="nav nav-pills">
+			<li class="active"><a  href="#1b" data-toggle="tab">Medical History</a></li>
+			<li><a href="#2b" data-toggle="tab">Social History</a></li>
+			<li><a href="#3b" data-toggle="tab">Family History</a></li>
+		</ul>
+
+	<div class="tab-content clearfix" style="padding-bottom: 2em">
+			  <div class="tab-pane active" id="1b">
+       
+          
+
+
+      <div class="row">
+        <div class="col-md-3">
+           <h3 style="padding-left: 1.5em">Medical History</h3>           
+           <br>
+           <span style="padding-left: 3.5em"><i class="fas fa-file-archive fa-5x" style="color: #707070"></i></span>
+
+        </div>
+        <div class="col-md-6">
+          <br><br>	
+          <h3>Select Known Conditions</h3>
+          <br>
+
+      <div class="row">
+        <div class="col-md-6" style="padding-left: 0px; padding-right: 0px">
+
+         <div class="col-md-6"><h3>Chronic Kidney Disease</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>    
+         <div style="clear: both;"></div>         
+         <div class="col-md-6"><h3>Dyslipidemia</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+         <div style="clear: both;"></div>           
+         <div class="col-md-6"><h3>Heart attack</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+         <div style="clear: both;"></div>
+         <div class="col-md-6"><h3>Arterial Disease</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>         
+         <div style="clear: both;"></div>
+         <div class="col-md-6"><h3>Erectile Dysfunction</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+         <div style="clear: both;"></div>                   
+         <div class="col-md-6"><h3>Shingles</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>          
+
+        </div>
+        <div class="col-md-6" style="padding-left: 1em; padding-right: 0px">
+
+         <div class="col-md-6"><h3>High Blood Pressure</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+         <div style="clear: both;"></div>
+         <div class="col-md-6"><h3>Angina</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+         <div style="clear: both;"></div>                  
+         <div class="col-md-6"><h3>Stroke / Tansient Ishemic attack (TIA)</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+         <div style="clear: both;"></div>
+         <div class="col-md-6"><h3>Depression</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>         
+         <div style="clear: both;"></div>
+         <div class="col-md-6"><h3>Diabetic</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+         <div style="clear: both;"></div>                   
+         <div class="col-md-6"><h3>Years of Diabetes Diagnosed</h3></div>
+
+<div class="col-md-6">
+<div class="dropdown">
+<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    one
+  </button>  
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">two</a>    
+    <a class="dropdown-item" href="#">three</a>
+  </div>
+</div>   
+
+ 
+
+         </div>
+     	
+
+        </div>
+        
+      </div>
+
+
+        </div>
+        <div class="col-md-3" style="margin-left: inherit; margin-top:32em">
+
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-edit" style="padding-right: .2em"></i>Edit</a></div>
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-save" style="padding-right: .2em"></i>Save</a></div>
+         <div class="col-md-4" style="width: 32%!important"><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-undo" style="padding-right: .2em"></i>Cancel</a></div> 
+
+        </div>
+      </div>
+
+
+		</div>
+		
+		<div class="tab-pane" id="2b">
+
+<!-- Social History (start) -->
+
+      <div class="row">
+        <div class="col-md-3">
+           <h3 style="padding-left: 1.5em">Social History</h3>           
+           <br>
+           <span style="padding-left: 3.5em"><i class="fas fa-file-archive fa-5x" style="color: #707070"></i></span>
+
+        </div>
+        <div class="col-md-6" style="padding-top: 4em">
+
+          
+      <div class="row">
+
+
+        <div class="col-md-2"><h3>Tobacco Use Status</h3></div>
+        <div class="col-md-10" style="padding-left: 0px; padding-right: 0px">
+         <div style="display:inline"><a class="btn btn-secondary" href="#" role="button">Current</a> <a class="btn btn-secondary" href="#" role="button">Former</a> <a class="btn btn-secondary" href="#" role="button">Never</a>
+         </div>
+        </div>
+         <div style="clear: both;"></div>         
+
+        <div class="col-md-2"><h3>Alcohol Use Status</h3></div>
+        <div class="col-md-10" style="padding-left: 0px; padding-right: 0px">
+         <div style="display:inline"><a class="btn btn-secondary" href="#" role="button">Never</a> <a class="btn btn-secondary" href="#" role="button">Socially</a> <a class="btn btn-secondary" href="#" role="button">1-2 Drinks Per Day</a> <a class="btn btn-secondary" href="#" role="button">1-2 Drinks Per Week</a><br/> <a class="btn btn-secondary" href="#" role="button">1-2 Drinks Per Month</a> <a class="btn btn-secondary" href="#" role="button">1-2 Drinks Per Year</a> <a class="btn btn-secondary" href="#" role="button">Other</a>	
+         </div>
+        </div>
+         <div style="clear: both;"></div>
+
+        <div class="col-md-2"><h3>Cannabis</h3></div>
+        <div class="col-md-10" style="padding-left: 0px; padding-right: 0px">
+         <div style="display:inline"><a class="btn btn-secondary" href="#" role="button">Current</a> <a class="btn btn-secondary" href="#" role="button">Former</a> <a class="btn btn-secondary" href="#" role="button">Never</a>
+         </div>
+        </div>
+         <div style="clear: both;"></div>    
+
+        <div class="col-md-2"><h3>Other Elicit Substances</h3></div>
+        <div class="col-md-10" style="padding-left: 0px; padding-right: 0px">
+         <div style="display:inline"><a class="btn btn-secondary" href="#" role="button">Current</a> <a class="btn btn-secondary" href="#" role="button">Former</a> <a class="btn btn-secondary" href="#" role="button">Never</a>
+         </div>
+        </div>
+         <div style="clear: both;"></div>                     
+
+        
+      </div>
+
+
+        </div>
+        <div class="col-md-3" style="margin-left: inherit; margin-top:32em">
+
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-edit" style="padding-right: .2em"></i>Edit</a></div>
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-save" style="padding-right: .2em"></i>Save</a></div>
+         <div class="col-md-4" style="width: 32%!important"><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-undo" style="padding-right: .2em"></i>Cancel</a></div> 
+
+        </div>
+      </div>
+
+
+<!-- Social History (end) --> 
+
+          
+		</div>
+        
+
+        <div class="tab-pane" id="3b">
+          
+<!-- Family History (start) -->
+
+      <div class="row">
+        <div class="col-md-3">
+           <h3 style="padding-left: 1.5em">Family History</h3>           
+           <br>
+           <span style="padding-left: 2em"><i class="fas fa-users fa-5x" style="color: #707070"></i></span>
+
+        </div>
+        <div class="col-md-6" style="padding-top: 4em">
+          
+
+      <div class="row">
+        <div class="col-md-6" style="padding-left: 0px; padding-right: 0px">
+
+         <div class="col-md-6"><h3>Diabetes</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>    
+         <div style="clear: both;"></div>         
+         <div class="col-md-6"><h3>Chronic Kidney Diease</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+         <div style="clear: both;"></div>           
+         <div class="col-md-6"><h3>Dyslipidemia</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+         <div style="clear: both;"></div>
+         <div class="col-md-6"><h3>Heart attack</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>         
+         <div style="clear: both;"></div>
+         <div class="col-md-6"><h3>Arterial Disease</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+         <div style="clear: both;"></div>  
+
+        </div>
+        <div class="col-md-6" style="padding-left: 1em; padding-right: 0px">
+
+         <div class="col-md-6"><h3>High Blood Pressure</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+         <div style="clear: both;"></div>
+         <div class="col-md-6"><h3>Angina</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+         <div style="clear: both;"></div>                  
+         <div class="col-md-6"><h3>Stroke / Tansient Ishemic attack (TIA)</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>
+         <div style="clear: both;"></div>
+         <div class="col-md-6"><h3>Depression</h3></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">Yes</a></div>
+         <div class="col-md-3"><a class="btn btn-secondary" href="#" role="button">No</a></div>         
+         <div style="clear: both;"></div>
+               
+      </div>
+      </div>
+
+        </div>
+        <div class="col-md-3" style="margin-left: inherit; margin-top:32em">
+
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-edit" style="padding-right: .2em"></i>Edit</a></div>
+         <div class="col-md-4"><a class="btn btn-secondary" href="#" role="button"><i class="fas fa-save" style="padding-right: .2em"></i>Save</a></div>
+         <div class="col-md-4" style="width: 32%!important"><a class="btn btn-secondary-red" href="#" role="button"><i class="fas fa-undo" style="padding-right: .2em"></i>Cancel</a></div> 
+
+        </div>
+      </div>
+
+<!-- Family History (end) -->
+
+
+		</div>
+  </div>
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+	
+	var slide_wrp 		= ".side-menu-wrapper"; //Menu Wrapper
+var open_button 	= ".menu-open"; //Menu Open Button
+var close_button 	= ".menu-close"; //Menu Close Button
+var overlay 		= ".menu-overlay"; //Overlay
+
+//Initial menu position
+$(slide_wrp).hide().css( {"right": -$(slide_wrp).outerWidth()+'px'}).delay(50).queue(function(){$(slide_wrp).show()}); 
+
+$(open_button).click(function(e){ //On menu open button click
+	e.preventDefault();
+
+	$(slide_wrp).css( {"right": "0px"}); //move menu right position to 0
+	setTimeout(function(){
+		$(slide_wrp).addClass('active'); //add active class
+	},50);
+	$(overlay).css({"opacity":"1", "width":"100%"});
+});
+
+$(close_button).click(function(e){ //on menu close button click
+	e.preventDefault();
+	$(slide_wrp).css( {"right": -$(slide_wrp).outerWidth()+'px'}); //hide menu by setting right position 
+	setTimeout(function(){
+		$(slide_wrp).removeClass('active'); // remove active class
+	},50);
+	$(overlay).css({"opacity":"0", "width":"0"});
+});
+});
+$(document).on('click', function(e) { //Hide menu when clicked outside menu area
+	if (!e.target.closest(slide_wrp) && $(slide_wrp).hasClass("active")){ // check menu condition
+		$(slide_wrp).css( {"right": -$(slide_wrp).outerWidth()+'px'}).removeClass('active');
+		$(overlay).css({"opacity":"0", "width":"0"});
+	}
+});
+
+</script>
+</body>
+</html>	
