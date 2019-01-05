@@ -1,6 +1,15 @@
+/* CSS Made by Mauricio (start) */
+
 body {
   padding : 10px ;
   background-color: #f8faf9;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #707070;
+    font-weight: 500;
 }
 
 a {
@@ -26,11 +35,8 @@ font-size: 20px;
 color:#707070;  
 }
 
-/* change border radius for the tab , apply corners on top*/
-
 #exTab .nav-pills > li > a {
   border-radius: 4px 4px 0 0 ;
-  border: 1px solid #009688; /* create by akram */
 }
 
 #exTab .tab-content {
@@ -41,8 +47,7 @@ color:#707070;
 
 #exTab .nav-pills > li > a {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-    /* font-size: 15px; change by akram ali */ 
-    font-size: 12px; 
+    font-size: 15px; 
     font-weight: 500;  
     background-color: white!important;
     color: #707070!important;
@@ -50,7 +55,7 @@ color:#707070;
 
 #exTab .nav-pills > li > a:hover {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-    font-size: 12px; 
+    font-size: 15px; 
     font-weight: 500;  
     color: #707070!important;
     background-color: #f1f1f1!important;
@@ -58,8 +63,7 @@ color:#707070;
 
 #exTab .nav-pills>li.active>a {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-    /* font-size: 15px; change by akram ali */ 
-    font-size: 12px; 
+    font-size: 15px; 
     font-weight: 500;     
     color: #707070!important;
     background-color: #f1f1f1!important;
@@ -85,16 +89,12 @@ color:#707070;
     background-color: #009688!important;
 }
 
-
-
-/* Fonts */
-
 h3 { 
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
   font-size: 15px; 
   font-weight: 600; 
   color:#707070;
-/*line-height: 26.4px;*/ }  
+ }  
 
 /* Buttons */
 
@@ -103,7 +103,8 @@ h3 {
     background-color: white;
     border-color: #009688;
     border-radius: 0px; 
-    margin-bottom: 1em   
+    margin-bottom: 1em;   
+    font-weight: bold
 }
 
 .btn-secondary-red {
@@ -111,8 +112,20 @@ h3 {
     background-color: white;
     border-color: #ff0000;
     border-radius: 0px;    
-    margin-bottom: 1em
+    margin-bottom: 1em;
+    font-weight: bold    
 }
+
+a.btn-secondary:hover, a.btn-secondary-red:hover {
+    background-color: #cccccc;
+}
+
+.hidden {
+display:none;
+}
+
+/* CSS Made by Mauricio (end) */
+
 
 /*  Akram Code (start)  */
 
